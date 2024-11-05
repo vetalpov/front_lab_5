@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+input {
+    padding: 8px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.output-container {
+    width: 1150px;
+    padding-left: 20px;
+    border-left: 1px solid #ccc;
+}
+
+.output-container h3 {
+    margin-top: 0;
+}
+
+#output p {
+    margin: 5px 0;
+}
+
+#colorTable {
+    border-collapse: collapse; 
+    margin-top: 30px;
+}
+
+#colorTable td {
+    width: 60px; 
+    height: 60px; 
+    text-align: center;
+    border: 2px solid #000; 
+    font-size: 24px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#colorPalette {
+    margin-top: 20px; 
+}
+
+#colorPalette input {
+    width: 380px; 
+    height: 50px;
+    cursor: pointer;
+}

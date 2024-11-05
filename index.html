@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab_5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Форма для заповнення</h2>
+    <div class="form-container">
+        <form id="userForm">
+            <input type="text" id="fullname" name="fullname" placeholder="ПІБ" required><br>
+            <input type="text" id="group" name="group" placeholder="Група" required><br>
+            <input type="text" id="idcard" name="idcard" placeholder="ID-карта" required><br>
+            <input type="text" id="dob" name="dob" placeholder="Дата народження" required><br>
+            <input type="email" id="email" name="email" placeholder="E-mail" required><br>
+
+            <button type="button" onclick="validateForm()">Підтвердити</button>
+        </form>
+        <div id="output" class="output-container">
+            <h3>Виведені дані:</h3>
+            <p id="fullnameOutput"></p>
+            <p id="groupOutput"></p>
+            <p id="idcardOutput"></p>
+            <p id="dobOutput"></p>
+            <p id="emailOutput"></p>
+        </div>
+    </div>
+
+    <div id="colorPalette">
+        <input type="color" id="colorPicker" value="#ff0000">
+    </div>
+
+    <table id="colorTable">
+        <tbody>
+        </tbody>
+    </table>
+
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
